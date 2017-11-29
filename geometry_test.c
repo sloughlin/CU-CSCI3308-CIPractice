@@ -159,6 +159,7 @@ START_TEST(test_2d_area){
 	a.y = 0;
 	b.y = 0;
 	c.y = 4;
+	//printf("%d", coord_2d_area_triangle(&a, &b, &c));
 	
 	ck_assert(coord_2d_area_triangle(&a, &b, &c) == 8.0);
 
