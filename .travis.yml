@@ -1,5 +1,4 @@
-install: 
-	make get-deps
-script: 
-	make test
 language: c
+sudo: enabled
+script: make test
+install: make dep
